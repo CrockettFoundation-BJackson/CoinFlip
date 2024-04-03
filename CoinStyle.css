@@ -1,0 +1,27 @@
+.coin {
+  aspect-ratio: 1;
+  width: 80vmin;
+  font: bold 40vh serif;
+  color: sienna;
+  border: 3vmin sienna outset;
+  border-radius: 50%;
+  background: gold;
+}
+
+@keyframes flip {
+  0% {
+    color: gold;
+    background: gold;
+    transform: scale(1, 1);
+  }
+  50% {
+    color: white;
+    background: white;
+    transform: scale(0, 1);
+  }
+  100% {
+    color: sienna;
+    background: gold;
+    transform: scale(1, 1);
+  }
+}
