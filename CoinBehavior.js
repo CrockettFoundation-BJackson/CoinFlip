@@ -1,6 +1,6 @@
 const myCoin = document.getElementById("coin");
 
-myCoin.addEventListener("click", () => flipCoin(coin));
+myCoin.addEventListener("click", () => flipCoin(myCoin));
 
 function flipCoin(coin) {
   coin.textContent = Math.random() < 0.5 ? "H" : "T";
