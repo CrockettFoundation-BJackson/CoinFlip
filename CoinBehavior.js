@@ -1,8 +1,6 @@
-const coins = document.getElementsByClassName('coin');
+const myCoin = document.getElementById("coin");
 
-for (let coin of coins) {
-  coin.addEventListener("click", () => flipCoin(coin));
-}
+myCoin.addEventListener("click", () => flipCoin(coin));
 
 function flipCoin(coin) {
   coin.textContent = Math.random() < 0.5 ? "H" : "T";
