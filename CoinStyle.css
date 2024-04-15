@@ -1,9 +1,9 @@
 .coin {
   aspect-ratio: 1;
-  width: 80vmin;
-  font: bold 40vh serif;
+  width: 40vmin;
+  font: bold 20vmin serif;
   color: sienna;
-  border: 3vmin sienna outset;
+  border: 2vmin sienna outset;
   border-radius: 50%;
   background: gold;
 }
