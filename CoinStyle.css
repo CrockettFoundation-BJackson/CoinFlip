@@ -1,4 +1,4 @@
-#coin {
+.coin {
   aspect-ratio: 1;
   width: 40vmin;
   font: bold 20vmin serif;
@@ -11,17 +11,14 @@
 @keyframes flip {
   0% {
     color: gold;
-    background: gold;
-    transform: scale(1, 1);
+    transform: scaleX(1);
   }
   50% {
-    color: white;
-    background: white;
-    transform: scale(0, 1);
+    color: gold;
+    transform: scaleX(0);
   }
   100% {
     color: sienna;
-    background: gold;
-    transform: scale(1, 1);
+    transform: scaleX(1);
   }
 }
